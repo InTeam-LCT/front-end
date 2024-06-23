@@ -54,14 +54,14 @@ export default function BuildingDetailsModal({
                 <li>
                   <h5 className="font-bold">Количество квартир</h5>
                   <address className="not-italic">
-                    {modalData.predication.n_flats} км²
+                    {modalData.predication.n_flats}
                   </address>
                 </li>
               )}
               {modalData.predication.square && (
                 <li>
                   <h5 className="font-bold">Площадь</h5>
-                  <p>{modalData.predication.square}</p>
+                  <p>{modalData.predication.square} км²</p>
                 </li>
               )}
               {modalData.predication.distance_to_moscow_center && (
