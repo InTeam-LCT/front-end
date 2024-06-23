@@ -4,12 +4,10 @@ import { Building } from "../types/Building";
 import { parseHouseNumber } from "../utils/parseHouseNumber";
 
 type Props = {
-  isModalOpen: boolean;
   modalData: Building | null;
   setModalData: (value: Building | null) => void;
 };
 export default function BuildingDetailsModal({
-  isModalOpen,
   modalData,
   setModalData,
 }: Props) {
@@ -17,7 +15,7 @@ export default function BuildingDetailsModal({
     <Modal
       title={`Инфо о доме ${modalData?.unom}`}
       transitionName=""
-      open={isModalOpen}
+      open={Boolean(modalData)}
       footer={null}
       onCancel={() => setModalData(null)}
     >

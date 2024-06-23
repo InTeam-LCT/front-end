@@ -150,7 +150,6 @@ const AsideList = memo(function ({
 
       <BuildingDetailsModal
         modalData={modalData}
-        isModalOpen={Boolean(modalData)}
         setModalData={setModalData}
       />
     </div>
