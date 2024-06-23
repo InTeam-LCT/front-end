@@ -109,7 +109,7 @@ const UploadButton = function () {
                 { value: "ADDRESSES", label: <span>Адреса</span> },
                 { value: "MOEK", label: <span>Схема подключений МОЭК</span> },
                 { value: "ASURP", label: <span>Данные АСУПР с диспетчерскими ОДС</span> },
-                { value: "CHARACTERISTIC", label: <span>Плановые-Внеплановые отключения</span> },
+                { value: "CHARACTERISTIC", label: <span>Технико-экономические характеристики</span> },
               ]}
             />
           </Form.Item>
