@@ -99,7 +99,6 @@ export const MarkersComponent = function ({ buildingsList }: Props) {
       />
       <BuildingDetailsModal
         modalData={modalData}
-        isModalOpen={Boolean(modalData)}
         setModalData={setModalData}
       />
     </>
