@@ -59,7 +59,7 @@ export default function BuildingDetailsModal({
               {modalData.predication.square && (
                 <li>
                   <h5 className="font-bold">Площадь</h5>
-                  <p>{modalData.predication.square} км²</p>
+                  <p>{modalData.predication.square} м²</p>
                 </li>
               )}
               {modalData.predication.distance_to_moscow_center && (
